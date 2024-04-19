@@ -57,8 +57,9 @@ nav {
     .cardItem {
         display: flex;
         flex-wrap: wrap;
-        width: 30%;
+        width: 25%;
         margin: 0px 0px 25px 0px;
+    
     }
 
 }
@@ -145,3 +146,14 @@ nav {
 
 
 /* ADICIONAR EVENTO - Inserir CSS da página de adicionar*/
+
+/*MeDIA QUERY - RESPONSIVIDADE*/
+
+@media(max-width:700px) {
+    body {
+        background-color: #f15652;
+    }
+    .cards {
+        width: 70%;
+    }
+}
